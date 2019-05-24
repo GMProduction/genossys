@@ -1,0 +1,113 @@
+html {
+    position: relative;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+
+}
+
+/* Nav */
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.navbar-brand:hover {
+    border: 1px solid red;
+    color: red;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.genosnav {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    padding-right: 5%;
+    padding-left: 5%;
+    z-index: 3;
+}
+
+.nav-item {
+    padding-left: 20px;
+}
+.nav-link {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    position: relative;
+}
+
+.nav-link:before {
+    content: "";
+    width: 0px;
+    height: 1px;
+    position: absolute;
+    background-color: red;
+    top: 100%;
+    left: 0;
+    transition: 0.3s;
+}
+
+.nav-item:hover .nav-link:before {
+    width: 50%;
+    transform: translateX(100%);
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+/* Home */
+
+.home {
+    width: 100%;
+    height: 700px;
+    background-image: url(../assets/gambar/home-hitam.jpg);
+    background-size: cover;
+    margin: 0;
+    background-position: -1px, -1px;
+}
+
+.home .heading {
+    padding-left: 100px;
+    padding-top: 140px;
+    color: white;
+    transition: 1.5s;
+    opacity: 0;
+    transform: translate(0, -100px);
+}
+
+.home .paragraph {
+    color: white;
+    padding-left: 100px;
+    font-size: 20px;
+    transition: 1s;
+    opacity: 0;
+    transform: translate(0, -100px);
+}
+
+.home .btn-danger {
+    margin-left: 100px;
+    background-color: red;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translate(0, -100px);
+}
+
+.home .heading.muncul,
+.home .paragraph.muncul,
+.home .btn-danger.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.home .btn-danger:hover {
+    background-color: white;
+    color: red;
+}
