@@ -41,7 +41,7 @@
     <div class="row">
         <div class="col-md-6">
             <h1 class="heading display-3 ">Segala Kebutuhan <br>IT anda</h1>
-            <p class="paragraph">Web DEsign, Apps, Aplikasi Desktop Semua <br>yang anda butuhkan ada di sini.</p>
+            <p class="paragraph">Web Design, Apps, Aplikasi Desktop Semua <br>yang anda butuhkan ada di sini.</p>
             <a href="" class="btn btn-danger btn-lg tombol">Produk Kami</a>
         </div>
     </div>
