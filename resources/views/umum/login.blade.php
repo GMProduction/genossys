@@ -35,8 +35,8 @@
 <script>
     Swal.fire({
         type: 'error',
-        title: '{{session('gagal')}}!',
-    })</script>
+        title: '{{session('gagal')}}',
+    });</script>
 @endif
 <div class="login-box">
     <div class="login-logo">
